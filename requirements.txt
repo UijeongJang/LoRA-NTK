@@ -1,0 +1,16 @@
+dataclasses
+filelock
+importlib-metadata
+regex
+tqdm
+packaging==20.8
+future==0.18.2
+six==1.15.0
+numpy==1.23.1
+pandas==1.1.5
+scikit-learn==0.24.0
+scipy==1.5.4
+tokenizers==0.10.3
+torch==1.12.1
+transformers==4.4.2
+functorch==0.2.1
