@@ -1,6 +1,6 @@
 # LoRA Training in the NTK regime has No Spurious Local Minima
 
-This is the code for the paper [LoRA Training in the NTK regime has No Spurious Local Minima](XXX). We simply added `linearized.py` to the [LM-Kernel-FT](https://github.com/princeton-nlp/LM-Kernel-FT/tree/main) repository, which was originally used to compute gradient kernels. For more information, please visit this repository.
+This is the code for the paper [LoRA Training in the NTK regime has No Spurious Local Minima](https://arxiv.org/abs/2402.11867). We simply added `linearized.py` to the [LM-Kernel-FT](https://github.com/princeton-nlp/LM-Kernel-FT/tree/main) repository, which was originally used to compute gradient kernels. For more information, please visit this repository.
 
 ## Installation
 All the requirements and the installation process are identical to those of the [LM-Kernel-FT](https://github.com/princeton-nlp/LM-Kernel-FT/tree/main) repository. Note that our implementation requires functorch, which is available in previous versions of PyTorch. Please check the `requirements.txt`. The main packages are:
